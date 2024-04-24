@@ -1,7 +1,7 @@
 version: '1'
 services:
   client_register:
-    image: anandanlk/client_register_test:latest
+    image: researchtestuva/client_register_test:latest
     container_name: client_register
     labels:
       - "com.centurylinklabs.watchtower.enable=true"
